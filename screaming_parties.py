@@ -24,10 +24,10 @@ print ("Year", year)
 print ("Individual Count", individual_count)
 
 
-# bar chart with given values from above, y axis limits of between 2 and 50 indiviuals, x axis limits of between 1913 and 2021
+# bar chart with given values from above, y axis limits of between 2 and 50 indiviuals, x axis limits of between 1921 and 2021
 plt.bar(year, individual_count)
 plt.ylim(2, 50)
-plt.xlim(1913, 2021)
+plt.xlim(1921, 2021)
 plt.xlabel("Year")
 plt.ylabel("Individual Count")
 plt.title("Screaming Party Individual Count per Year")
